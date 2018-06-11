@@ -1,0 +1,18 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": { },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kimserey/webpack-test.git"
+  },
+  "keywords": [],
+  "author": "Kimserey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kimserey/webpack-test/issues"
+  },
+  "homepage": "https://github.com/Kimserey/webpack-test#readme"
+}
