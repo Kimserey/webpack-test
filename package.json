@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": { },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kimserey/webpack-test.git"
@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/Kimserey/webpack-test/issues"
   },
-  "homepage": "https://github.com/Kimserey/webpack-test#readme"
+  "homepage": "https://github.com/Kimserey/webpack-test#readme",
+  "devDependencies": {
+    "webpack": "^4.12.0"
+  }
 }
