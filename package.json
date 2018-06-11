@@ -2,20 +2,18 @@
   "name": "webpack-test",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kimserey/webpack-test.git"
+  "private": true,
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "Kimserey",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Kimserey/webpack-test/issues"
-  },
-  "homepage": "https://github.com/Kimserey/webpack-test#readme",
   "devDependencies": {
-    "webpack": "^4.12.0"
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
   }
 }
