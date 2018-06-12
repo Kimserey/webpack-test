@@ -1,3 +1,4 @@
+import "../scss/index.scss";
 import 'bootstrap';
 import { cube } from './math.js';
 
