@@ -4,13 +4,13 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-      app: './src/index.js',
-      print: './src/print.js'
+      app: './src/index.js'
   },
-  devtool: 'inline-source-map',
+  // devtool: 'inline-source-map',
   devServer: {
     contentBase: './dist'
   },
+  mode: 'development',
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
@@ -18,5 +18,16 @@ module.exports = {
   plugins: [
       new CleanWebpackPlugin([ 'dist' ]),
       new HtmlWebpackPlugin({ title: 'Hello World' })
-  ]
+  ],
+  module: {
+    rules: [{
+      test: /\.(scss)$/,
+      use: [
+        'style-loader', 
+        'css-loader', 
+        'postcss-loader',
+        'sass-loader'
+      ]
+    }]
+  }
 };
